@@ -1,0 +1,19 @@
+h1 {
+    color:white;
+}
+
+
+.container {
+    background-color: blue;
+}
+
+.index {
+    background-color: pink;
+    Width: 200px;
+    height: 25px;
+    text-align: center;
+}
+
+.heading {
+    background-color: yellow;
+}
