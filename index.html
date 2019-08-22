@@ -1,40 +1,52 @@
 <!DOCTYPE html>
 <html>
-    <header>
+
+    <!-- Insert Head; Add title; Add CSS Link -->
+    <head>
         <title>David Lopez</title>
-        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    </header>
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
 
+    <!-- Create the body of the website; include header div; include a div called container -->
     <body>
-        
-            <header class="heading">
-                <Section>
-                    <h1>David Lopez</h1>
-                </Section>
 
-                <Section class="index">
-                    <a href="/index.html">About Me</a>
-                </section>
-                <section class="contact">
-                    <a href="/contact.html">Contact Page</a>
-                </section> 
-                <section class="gallery">
-                    <a href="/Gallery.html">Gallery</a> |
-                </section>
-            </header>
+        <!-- Create header -->
+        <header class="header">
 
+            <!-- Name -->
+            <h1>David Lopez</h1>
 
-            
-            <div class="container">
-                
-                <section id="education">
-                    <h2>Educational History</h2>
-                        <p>My name is David Lopez and I was born and raised in Brooklyn, NY.  Most of my school life was done in public school.  Public Schools in Brooklyn can be an adventure.</p>
-                        <p>For middle school, or Junior High School in my day, I went to Junior High School 50.  The school did not have the greatest reputation but my class managed to make it one of the greatest school experiences.</p>
-                        <p>Murry Bergtraum High School for Business Careers was home for my highschool years.  I breezed through high school and had only 3 classes my last year.  With so much time, I became a social bug, going to parties, meeting new people, and learning how to network for business purposes.</p>
-                </section>  
-            </div>
-         
+            <!-- Navigation Bar -->
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+        </header>
+
+        <!-- Section with image and paragraph -->
+        <div class="container">
+
+            <!-- Header 2: Title of page -->
+            <h2>About Me</h2>
+
+            <!-- break betwen About Me and image/content -->
+            <hr>
+
+            <!-- inmport image -->
+            <picture class="main-pic">
+                <img src="" alt="">
+            </picture>
+            <section class="am-txt">
+                    <p>My name is David Lopez.  I was born and raised in Brooklyn, NY.  My parents are from Puerto Rico.  They moved to New York City when I was young.  My father arrived first and moved to the Bronx.  My mother arrived later on and lived in Brooklyn.  </p>
+                    <p>My parents raised me in Williamsburg, Brooklyn.  It was not a very nice neighborhood.  The school system was not the greatest.  I managed to keep my head in the books and my sports.  Being around school allowed me to stay in sports.</p>
+                    <p>I joined a baseball team at 9 years old.  I played baseball my young life and that allowed me to be blind to the negativity around me.</p>
+            </section>
+
+        </div>
     </body>
 </html>
+
+

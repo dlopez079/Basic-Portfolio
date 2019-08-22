@@ -1,19 +1,21 @@
-h1 {
-    color:white;
-}
+    /* * Teal color (used for headings and backgrounds): `#4aaaa5`
+*/
+    
 
+   /* * Regular font color (used for paragraphs and all text besides the headings): `#777777`
+   * Main header background color: `#ffffff`
+   * Main header border color: `#cccccc`
+   * Footer background color: `#666666`
+   * Main content background color: `#ffffff`
+   * Main content border color: `#dddddd */ */
 
-.container {
-    background-color: blue;
-}
-
-.index {
-    background-color: pink;
-    Width: 200px;
-    height: 25px;
-    text-align: center;
-}
-
-.heading {
-    background-color: yellow;
-}
+   /*Fonts: >>> COMPLETED
+   * For heading fonts use `font-family: 'Georgia', Times, Times New Roman, serif;`.
+   * For all other fonts use `'Arial', 'Helvetica Neue', Helvetica, sans-serif;`.  */
+    
+   .header {
+       font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+   .body {
+       font-family: Arial, Helvetica, sans-serif;
+   }
